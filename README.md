@@ -6,10 +6,24 @@
 
 A modern web application to track your expenses, manage budgets, and analyze spending patterns.
 
-![Expense Tracker Screenshot](https://github.com/AbdulAHAD968/EXPENSE-TRACKER/blob/main/screenshot.png?raw=true)
+---
+
+![login.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/login.PNG)
+
+---
+
+![signup.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/signup.PNG)
+
+---
+
+![dash-board.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/dash-board.PNG)
+
+---
 
 ## Features
 
+- Desktop Application (You can generate a Desktop icon using powershell script).
+- Runs totally in background.
 - Interactive Dashboard
 - Expense Tracking
 - Budget Management
@@ -33,7 +47,11 @@ The dashboard provides an overview of your financial status:
 3. **Recent Transactions**: Quickly see your last 5-10 transactions
 4. **Budget Progress**: Track your monthly budget utilization
 
-![Dashboard Guide](https://github.com/AbdulAHAD968/EXPENSE-TRACKER/blob/main/docs/dashboard-guide.png?raw=true)
+---
+![expense-tracker.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/expense-tracker.PNG)
+---
+![1.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/1.PNG)
+---
 
 ### Expenses
 
@@ -69,6 +87,12 @@ Set and monitor your budgets:
    - Color indicators (green/yellow/red) warn when approaching limits
    - Receive notifications when exceeding budgets
 
+---
+![add-budget.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/add-budget.PNG)
+---
+![budget-manage.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/budget-manage.PNG)
+---
+
 ### Reports
 
 Generate detailed financial reports:
@@ -84,6 +108,10 @@ Generate detailed financial reports:
 3. **Custom Reports**:
    - Create custom date ranges
    - Filter by specific categories or tags
+
+---
+![gen-reports.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/gen-reports.PNG)
+---
 
 ### Settings
 
@@ -107,6 +135,9 @@ Customize your experience:
    - Backup your data
    - Export all transactions
    - Delete account
+---
+![account-settings.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/account-settings.PNG)
+---
 
 ## Installation
 
@@ -126,13 +157,6 @@ Customize your experience:
     Start-Sleep -Seconds 5
     Start-Process "http://localhost:3000"
 
-## IMAGES (Since I cannot host it(had to host both server and client side seperately) )
-![1.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/1.PNG)
-![account-settings.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/account-settings.PNG)
-![add-budget.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/add-budget.PNG)
-![budget-manage.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/budget-manage.PNG)
-![dash-board.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/dash-board.PNG)
-![expense-tracker.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/expense-tracker.PNG)
-![gen-reports.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/gen-reports.PNG)
-![login.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/login.PNG)
-![signup.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/signup.PNG)
+## Future Work:
+- Still trying to resolve the error that how to stop the bg tasks automatically.
+- AI (DeepSeek API) integration for getting insights and plans abou budget management.
