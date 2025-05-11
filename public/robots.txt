@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Madman.txt
+always.txt
+fuck.txt
+around.bat

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="money-bag.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4CAF50" />
+    <meta
+      name="description"
+      content="Expense Tracker - Manage your personal finances and track spending"
+    />
+    <meta name="keywords" content="expense tracker, budget, finance, money management" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Expense Tracker" />
+    <meta property="og:description" content="Manage your personal finances and track spending" />
+    
+    <!-- iOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Expense Tracker" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/money-bag-192.png" />
+    
+    <title>Expense Tracker</title>
+    
+    <!-- Preconnect to external domains if needed -->
+    <!-- <link rel="preconnect" href="https://api.your-finance-service.com" /> -->
+    
+    <!-- Preload important resources -->
+    <!-- <link rel="preload" href="%PUBLIC_URL%/fonts/your-font.woff2" as="font" type="font/woff2" crossorigin /> -->
+  </head>
+  <body>
+    <noscript>
+      <div style="text-align: center; padding: 2rem; background: #f8f9fa; color: #212529;">
+        <h1 style="color: #dc3545;">JavaScript is required</h1>
+        <p>You need to enable JavaScript to run this application.</p>
+        <p>Expense Tracker is a modern web application that requires JavaScript to function properly.</p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    
+    <!-- Optional: Add loading indicator that will be replaced by React -->
+    <div id="loading" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background: white; z-index: 9999;">
+      <div style="text-align: center;">
+        <div style="width: 50px; height: 50px; border: 5px solid #f3f3f3; border-top: 5px solid #4CAF50; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto;"></div>
+        <p style="margin-top: 1rem; color: #4CAF50; font-weight: bold;">Loading Expense Tracker...</p>
+      </div>
+    </div>
+    
+    <style>
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+    <script>
+      // Hide loading indicator when app mounts
+      window.addEventListener('load', function() {
+        var loading = document.getElementById('loading');
+        if (loading) {
+          loading.style.display = 'none';
+        }
+      });
+    </script>
+  </body>
+</html>
