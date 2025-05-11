@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+# Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub license](https://img.shields.io/github/license/AbdulAHAD968/EXPENSE-TRACKER)](https://github.com/AbdulAHAD968/EXPENSE-TRACKER/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/AbdulAHAD968/EXPENSE-TRACKER)](https://github.com/AbdulAHAD968/EXPENSE-TRACKER/issues)
+[![GitHub stars](https://img.shields.io/github/stars/AbdulAHAD968/EXPENSE-TRACKER)](https://github.com/AbdulAHAD968/EXPENSE-TRACKER/stargazers)
 
-## Available Scripts
+A modern web application to track your expenses, manage budgets, and analyze spending patterns.
 
-In the project directory, you can run:
+![Expense Tracker Screenshot](https://github.com/AbdulAHAD968/EXPENSE-TRACKER/blob/main/screenshot.png?raw=true)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Interactive Dashboard
+- Expense Tracking
+- Budget Management
+- Detailed Reports
+- User Settings
+- Secure Authentication
+- Responsive Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Directory Overview
 
-### `npm test`
+For a detailed directory structure, view the project on [GitIngest](https://gitingest.com/r/AbdulAHAD968/EXPENSE-TRACKER).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Guides
 
-### `npm run build`
+### Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The dashboard provides an overview of your financial status:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Summary Cards**: View your total balance, income, expenses, and savings at a glance
+2. **Spending Chart**: Visualize your expenses by category (pie/bar chart)
+3. **Recent Transactions**: Quickly see your last 5-10 transactions
+4. **Budget Progress**: Track your monthly budget utilization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Dashboard Guide](https://github.com/AbdulAHAD968/EXPENSE-TRACKER/blob/main/docs/dashboard-guide.png?raw=true)
 
-### `npm run eject`
+### Expenses
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Track and manage your expenses:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Add New Expense**:
+   - Click "+ Add Expense" button
+   - Fill in amount, category, date, and description
+   - Attach receipts (optional)
+   - Click "Save"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Edit/Delete Expenses**:
+   - Click on any expense in the list
+   - Make changes or click "Delete"
+   - Confirm your action
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Filter Expenses**:
+   - Use date range picker
+   - Filter by category
+   - Search by description
 
-## Learn More
+### Budget
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Set and monitor your budgets:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Create Budget**:
+   - Select a category (Groceries, Entertainment, etc.)
+   - Set monthly amount
+   - Choose period (monthly/weekly)
 
-### Code Splitting
+2. **Track Progress**:
+   - Visual progress bars show spending vs budget
+   - Color indicators (green/yellow/red) warn when approaching limits
+   - Receive notifications when exceeding budgets
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Reports
 
-### Analyzing the Bundle Size
+Generate detailed financial reports:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. **Spending Analysis**:
+   - View by category, merchant, or payment method
+   - Compare periods (month-over-month, year-over-year)
 
-### Making a Progressive Web App
+2. **Export Data**:
+   - Export to Excel
+   - Print reports directly
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **Custom Reports**:
+   - Create custom date ranges
+   - Filter by specific categories or tags
 
-### Advanced Configuration
+### Settings
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Customize your experience:
 
-### Deployment
+1. **Profile**:
+   - Update personal information
+   - Change profile picture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. **Preferences**:
+   - Set default currency
+   - Choose theme (light/dark)
+   - Configure notifications
 
-### `npm run build` fails to minify
+3. **Account**:
+   - Change password
+   - Enable two-factor authentication
+   - Manage connected banks (if applicable)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Data Management**:
+   - Backup your data
+   - Export all transactions
+   - Delete account
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AbdulAHAD968/EXPENSE-TRACKER.git
+   cd EXPENSE-TRACKER```
+
+## Launch via Desktop Shortcut (Windows Only)
+
+- launch-expense-tracker.ps1
+- Start Backend (Hidden + Adjust the path as needed)
+    Start-Process "cmd.exe" -ArgumentList "/c cd /d D:\HTML\expense-tracker\server && npm run dev" -WindowStyle Hidden
+- Start Frontend (Hidden + Adjust the path as needed)
+    Start-Process "cmd.exe" -ArgumentList "/c cd /d D:\HTML\expense-tracker && npm start" -WindowStyle Hidden
+- Open browser after delay (optional)
+    Start-Sleep -Seconds 5
+    Start-Process "http://localhost:3000"
+
+## IMAGES (Since I cannot host it(had to host both server and client side seperately) )
+![1.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/1.PNG)
+![account-settings.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/account-settings.PNG)
+![add-budget.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/add-budget.PNG)
+![budget-manage.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/budget-manage.PNG)
+![dash-board.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/dash-board.PNG)
+![expense-tracker.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/expense-tracker.PNG)
+![gen-reports.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/gen-reports.PNG)
+![login.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/login.PNG)
+![signup.PNG](https://raw.githubusercontent.com/AbdulAHAD968/EXPENSE-TRACKER/main/assets/signup.PNG)
