@@ -158,5 +158,5 @@ Customize your experience:
     Start-Process "http://localhost:3000"
 
 ## Future Work:
-- Still trying to resolve the error that how to stop the bg tasks automatically.
-- AI (DeepSeek API) integration for getting insights and plans abou budget management.
+- Still trying to resolve the error that how to stop the background tasks automatically.
+- AI (DeepSeek API) integration for getting insights and plans about budget management.
