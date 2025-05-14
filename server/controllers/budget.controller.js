@@ -105,7 +105,7 @@ exports.deleteBudget = asyncHandler(async (req, res, next) => {
     );
   }
 
-  await budget.remove();
+  await Budget.findByIdAndDelete(req.params.id);
 
   res.status(200).json({
     success: true,
