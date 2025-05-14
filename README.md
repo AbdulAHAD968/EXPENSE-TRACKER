@@ -34,7 +34,7 @@ A modern web application to track your expenses, manage budgets, and analyze spe
 
 ## Directory Overview
 
-For a detailed directory structure, view the project on [GitIngest](https://gitingest.com/r/AbdulAHAD968/EXPENSE-TRACKER).
+For a detailed directory structure, view the project on [GitIngest](https://gitingest.com/AbdulAHAD968/EXPENSE-TRACKER).
 
 ## User Guides
 
